@@ -24,10 +24,10 @@
         double RetailValue { get; }
 
         /// <summary>
-        /// Registration method for the share.
+        /// Registration method for the product.
         /// </summary>
-        /// <param name="sender">The share.</param>
-        /// <param name="eventArgs">Not in used.</param>
-        void UpdateProduct(object sender, EventArgs eventArgs);
+        /// <param name="sender">The product.</param>
+        /// <param name="eventArgs">The default is EventArgs.Empty.</param>
+        void Update(object sender, EventArgs eventArgs);
     }
 }

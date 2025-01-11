@@ -28,7 +28,7 @@
         }
 
         #region methods
-        public void UpdateProduct(object sender, EventArgs eventArgs)
+        public void Update(object sender, EventArgs eventArgs)
         {
             throw new NotImplementedException();
         }
